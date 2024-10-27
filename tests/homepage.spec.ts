@@ -45,7 +45,7 @@ test('The homepage should return a 200 status and verify that the categories ren
     }
   });
 
-  const response = await page.goto('http://shop_front:3000');
+  const response = await page.goto('');
   await page.waitForLoadState('load');
   await page.waitForTimeout(2000);
 

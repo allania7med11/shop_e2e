@@ -2,6 +2,6 @@ import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
   use: {
-    // Browser and test settings go here
+    baseURL: 'http://shop_front:3000',
   },
 });
