@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import categoriesResponse from '../mocks/categoriesResponse.json';
 
-test('homepage should return 200 status and check if /api/categories/ was requested', async ({ page }) => {
+test('The homepage should return a 200 status and verify that the categories render correctly.', async ({ page }) => {
   let categoriesRequested = false;
 
   await page.route('**/api/**', (route, request) => {
