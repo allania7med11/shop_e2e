@@ -1,4 +1,6 @@
 import { test, expect } from '@playwright/test';
+import categoriesResponse from '../mocks/categoriesResponse.json';
+
 
 test('homepage should return 200 status and check if /api/categories/ was requested', async ({ page }) => {
   // Define a flag to check if the endpoint was requested
@@ -38,39 +40,7 @@ test('homepage should return 200 status and check if /api/categories/ was reques
       route.fulfill({
         status: 200,
         contentType: 'application/json',
-        body: JSON.stringify([
-          {
-            url: 'http://localhost/api/categories/mobiles/',
-            slug: 'mobiles',
-            id: 1,
-            name: 'mobiles',
-            products: [
-              {
-                url: 'http://localhost/api/products/samsung-galaxy-s22-cell-phone/',
-                slug: 'samsung-galaxy-s22-cell-phone',
-                id: 9,
-                name: 'SAMSUNG Galaxy S22+ Cell Phone',
-                files: [
-                  {
-                    url: 'https://res.cloudinary.com/dkljxonku/image/upload/visxlcqd5oupmogu54gx',
-                  },
-                ],
-                price: '910.00',
-                price_currency: 'USD',
-                discount: null,
-                current_price: 910.0,
-                category: {
-                  url: 'http://localhost/api/categories/mobiles/',
-                  slug: 'mobiles',
-                  id: 1,
-                  name: 'mobiles',
-                },
-                description_html: 'Some HTML description',
-                updated_at: '2024-04-07T18:26:05.998937Z',
-              },
-            ],
-          },
-        ]),
+        body: JSON.stringify(categoriesResponse),
       });
     } else if (url.includes('/api/auth/csrf/')) {
       // Mock a 200 response for the CSRF endpoint
@@ -92,8 +62,8 @@ test('homepage should return 200 status and check if /api/categories/ was reques
   // Wait for the page to load completely
   await page.waitForLoadState('load');
 
-  // Wait for 10 seconds
-  await page.waitForTimeout(1000);
+  // Wait for 2 seconds
+  await page.waitForTimeout(2000);
 
   // Check if the status code is 200
   expect(response?.status()).toBe(200);

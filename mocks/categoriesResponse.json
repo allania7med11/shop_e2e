@@ -1,0 +1,620 @@
+[
+  {
+      "url": "http://localhost/api/categories/mobiles/",
+      "slug": "mobiles",
+      "id": 1,
+      "name": "mobiles",
+      "products": [
+          {
+              "url": "http://localhost/api/products/samsung-galaxy-s22-cell-phone/",
+              "slug": "samsung-galaxy-s22-cell-phone",
+              "id": 9,
+              "name": "SAMSUNG Galaxy S22+ Cell Phone",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/visxlcqd5oupmogu54gx"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/bb3ikyr1nap2gxxvacqq"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/pndn7mjat1ba4faacexm"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/hqwb3ee0fky70jeg49ex"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/qyo6dywltkhfxiejiijw"
+                  }
+              ],
+              "price": "910.0000",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 910.0,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "<ul><li>6.6\", 1080 x 2340pixels, Infinity-O FHD+ Dynamic AMOLED 2X Display, 4500mAh Battery, Wireless Powershare</li><li>128GB ROM, 8GB RAM, No SD Card Slot, Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm), Octa-Core, Adreno 730</li><li>Rear Camera: 50MP, f/1.8 + 10MP, f/2.4 + 12MP, f/2.2, Front Camera: 10 MP, f/2.2, Android 12, One UI 4.1</li><li>2G: GSM 850/900/1800/1900, CDMA 800/1900, 3G: HSDPA 850/900/1700(AWS)/1900/2100, CDMA2000 1xEV-DO, 4G LTE: 1/2/3/4/5/7/8/12/13/14/18/19/20/25/26/28/29/30/38/39/40/41/46/48/66/71, 5G: 1/3/5/7/8/20/28/38/41/66/71/260/261SA/NSA/Sub6/mmWave - Single SIM</li><li>No Warranty. Compatible with Most GSM and CDMA Carriers like T-Mobile, AT&amp;T, MetroPCS, etc. Will Also work with CDMA Carriers Such as Verizon, Sprint.</li></ul>",
+              "updated_at": "2024-04-07T18:26:05.998937Z"
+          },
+          {
+              "url": "http://localhost/api/products/apple-iphone-11-pro-max/",
+              "slug": "apple-iphone-11-pro-max",
+              "id": 8,
+              "name": "Apple iPhone 11 Pro Max",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/mh7j5ezrnajgtbagtk8o"
+                  }
+              ],
+              "price": "689.0000",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 689.0,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:26:05.469485Z"
+          },
+          {
+              "url": "http://localhost/api/products/oneplus-nord-n200-5g/",
+              "slug": "oneplus-nord-n200-5g",
+              "id": 7,
+              "name": "OnePlus Nord N200 | 5G",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/s0bxxv5hi3fxofbzyofd"
+                  }
+              ],
+              "price": "189.9900",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 189.99,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:26:04.953311Z"
+          },
+          {
+              "url": "http://localhost/api/products/samsung-galaxy-z-fold-3-5g-cell-phone/",
+              "slug": "samsung-galaxy-z-fold-3-5g-cell-phone",
+              "id": 6,
+              "name": "SAMSUNG Galaxy Z Fold 3 5G Cell Phone",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/boxuazmwrnpy1cn0dcvz"
+                  }
+              ],
+              "price": "1144.0000",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 1144.0,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:26:04.080368Z"
+          },
+          {
+              "url": "http://localhost/api/products/samsung-galaxy-s20-fe-5g/",
+              "slug": "samsung-galaxy-s20-fe-5g",
+              "id": 5,
+              "name": "Samsung Galaxy S20 FE 5G",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/dytxrmxlgvefmadw44lb"
+                  }
+              ],
+              "price": "550.0000",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 550.0,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:26:03.241414Z"
+          },
+          {
+              "url": "http://localhost/api/products/iphone-13-pro-max/",
+              "slug": "iphone-13-pro-max",
+              "id": 4,
+              "name": "iPhone 13 Pro Max",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/vmkz9sxhtp4uxjam9qea"
+                  }
+              ],
+              "price": "1101.0000",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 1101.0,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:26:02.757913Z"
+          },
+          {
+              "url": "http://localhost/api/products/oneplus-10-pro-5g-android-smartphone/",
+              "slug": "oneplus-10-pro-5g-android-smartphone",
+              "id": 3,
+              "name": "OnePlus 10 Pro | 5G Android Smartphone",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/yngmbtkihr7n99d2mfwm"
+                  }
+              ],
+              "price": "697.1700",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 697.17,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:26:01.722371Z"
+          },
+          {
+              "url": "http://localhost/api/products/apple-iphone-12/",
+              "slug": "apple-iphone-12",
+              "id": 2,
+              "name": "Apple iPhone 12",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/b0xvdb48uxt38vqrchay"
+                  }
+              ],
+              "price": "504.0000",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 504.0,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:26:01.177081Z"
+          },
+          {
+              "url": "http://localhost/api/products/oneplus-10t-moonstone-black-5g/",
+              "slug": "oneplus-10t-moonstone-black-5g",
+              "id": 1,
+              "name": "ONEPLUS 10T | Moonstone Black | 5G",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/rd8hljp8cuqvqcaqwmze"
+                  }
+              ],
+              "price": "549.9900",
+              "price_currency": "USD",
+              "discount": null,
+              "current_price": 549.99,
+              "category": {
+                  "url": "http://localhost/api/categories/mobiles/",
+                  "slug": "mobiles",
+                  "id": 1,
+                  "name": "mobiles"
+              },
+              "description_html": "",
+              "updated_at": "2024-04-07T18:25:59.820687Z"
+          }
+      ]
+  },
+  {
+      "url": "http://localhost/api/categories/laptops/",
+      "slug": "laptops",
+      "id": 3,
+      "name": "Laptops",
+      "products": [
+          {
+              "url": "http://localhost/api/products/hp-pavilion-15-dk1056wm/",
+              "slug": "hp-pavilion-15-dk1056wm",
+              "id": 19,
+              "name": "HP Pavilion 15-DK1056WM",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/fy2l6xau2chziou6igvw"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/awen1o5l7fgm1bcmgypn"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/oyzsstpmmi05kwijd8mp"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/pjza3p0loqfv1qmtgxao"
+                  }
+              ],
+              "price": "1099.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "6.18 %",
+                  "percent": "6.18",
+                  "active": true
+              },
+              "current_price": 1031.0818,
+              "category": {
+                  "url": "http://localhost/api/categories/laptops/",
+                  "slug": "laptops",
+                  "id": 3,
+                  "name": "Laptops"
+              },
+              "description_html": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
+              "updated_at": "2024-04-07T19:25:44.296664Z"
+          },
+          {
+              "url": "http://localhost/api/products/infinix-inbook/",
+              "slug": "infinix-inbook",
+              "id": 18,
+              "name": "Infinix INBOOK",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/zqc8fcdbid4idbpughrd"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/zg3xmxrh0s6drx9dfonz"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/rm3m0ioi8938zt3i4slf"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/nxast60ccr2ndckxlvsh"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/u1o73gqx3fhbzx0vos43"
+                  }
+              ],
+              "price": "1099.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "11.83 %",
+                  "percent": "11.83",
+                  "active": true
+              },
+              "current_price": 968.9883,
+              "category": {
+                  "url": "http://localhost/api/categories/laptops/",
+                  "slug": "laptops",
+                  "id": 3,
+                  "name": "Laptops"
+              },
+              "description_html": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
+              "updated_at": "2024-04-07T19:25:41.888754Z"
+          },
+          {
+              "url": "http://localhost/api/products/microsoft-surface-laptop-4/",
+              "slug": "microsoft-surface-laptop-4",
+              "id": 17,
+              "name": "Microsoft Surface Laptop 4",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/mgvhaorgapa3oma3iz8a"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/y4duapjxmameql4txwgk"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/snikefhermlkzfind4pi"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/zvmaogbg8pr34lk2tvdy"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/vtxpr8ha20je37tfvk8k"
+                  }
+              ],
+              "price": "1499.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "10.23 %",
+                  "percent": "10.23",
+                  "active": true
+              },
+              "current_price": 1345.6523,
+              "category": {
+                  "url": "http://localhost/api/categories/laptops/",
+                  "slug": "laptops",
+                  "id": 3,
+                  "name": "Laptops"
+              },
+              "description_html": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
+              "updated_at": "2024-04-07T19:25:38.229855Z"
+          },
+          {
+              "url": "http://localhost/api/products/samsung-galaxy-book/",
+              "slug": "samsung-galaxy-book",
+              "id": 16,
+              "name": "Samsung Galaxy Book",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/ax8jh8glxdyudwjym6hf"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/ydoyl2mrjjrcuz6haoxj"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/zzehhbxhemtzqruai7gi"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/t2kgoemgsljehud2tcxb"
+                  }
+              ],
+              "price": "1499.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "4.15 %",
+                  "percent": "4.15",
+                  "active": true
+              },
+              "current_price": 1436.7915,
+              "category": {
+                  "url": "http://localhost/api/categories/laptops/",
+                  "slug": "laptops",
+                  "id": 3,
+                  "name": "Laptops"
+              },
+              "description_html": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
+              "updated_at": "2024-04-07T19:25:35.778231Z"
+          },
+          {
+              "url": "http://localhost/api/products/macbook-pro/",
+              "slug": "macbook-pro",
+              "id": 15,
+              "name": "MacBook Pro",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/oqfhbm3p55n8dyaastcz"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/ubxvzogw1mdpksfzbzmq"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/bk6g9h7lf613ygvmabjm"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/l2spbmpzhpaickbire71"
+                  }
+              ],
+              "price": "1749.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "11.02 %",
+                  "percent": "11.02",
+                  "active": true
+              },
+              "current_price": 1556.2602,
+              "category": {
+                  "url": "http://localhost/api/categories/laptops/",
+                  "slug": "laptops",
+                  "id": 3,
+                  "name": "Laptops"
+              },
+              "description_html": "MacBook Pro 2021 with mini-LED display may launch between September, November",
+              "updated_at": "2024-04-07T19:25:33.648937Z"
+          }
+      ]
+  },
+  {
+      "url": "http://localhost/api/categories/fragrances/",
+      "slug": "fragrances",
+      "id": 4,
+      "name": "Fragrances",
+      "products": [
+          {
+              "url": "http://localhost/api/products/eau-de-perfume-spray/",
+              "slug": "eau-de-perfume-spray",
+              "id": 24,
+              "name": "Eau De Perfume Spray",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/d87toszxtsubh5yfh4sn"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/vbth9ouhpkv826ug7o00"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/ay6asaareolrorgsipgo"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/ufii9urokb14qbrcp1b4"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/gmwgqzxa57ondefubodx"
+                  }
+              ],
+              "price": "30.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "10.99 %",
+                  "percent": "10.99",
+                  "active": true
+              },
+              "current_price": 26.703,
+              "category": {
+                  "url": "http://localhost/api/categories/fragrances/",
+                  "slug": "fragrances",
+                  "id": 4,
+                  "name": "Fragrances"
+              },
+              "description_html": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
+              "updated_at": "2024-04-07T19:25:56.336188Z"
+          },
+          {
+              "url": "http://localhost/api/products/non-alcoholic-concentrated-perfume-oil/",
+              "slug": "non-alcoholic-concentrated-perfume-oil",
+              "id": 23,
+              "name": "Non-Alcoholic Concentrated Perfume Oil",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/gyc2zugo6tf0zeu3bkkq"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/tkf91angdfrvaah4iar5"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/qxk90ty2nzthz433qz9u"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/ug3xdi5itrko7x4res9v"
+                  }
+              ],
+              "price": "120.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "15.6 %",
+                  "percent": "15.60",
+                  "active": true
+              },
+              "current_price": 101.28,
+              "category": {
+                  "url": "http://localhost/api/categories/fragrances/",
+                  "slug": "fragrances",
+                  "id": 4,
+                  "name": "Fragrances"
+              },
+              "description_html": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
+              "updated_at": "2024-04-07T19:25:54.194950Z"
+          },
+          {
+              "url": "http://localhost/api/products/fog-scent-xpressio-perfume/",
+              "slug": "fog-scent-xpressio-perfume",
+              "id": 22,
+              "name": "Fog Scent Xpressio Perfume",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/hy5jkubpzj87gezkwxpp"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/pdrn7xbewop6p03xepod"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/trfnl4p03zolxwjuktww"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/fihk7htkg8zxvfpovl9l"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/mogionhs69ovfm0ezz1v"
+                  }
+              ],
+              "price": "13.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "8.14 %",
+                  "percent": "8.14",
+                  "active": true
+              },
+              "current_price": 11.9418,
+              "category": {
+                  "url": "http://localhost/api/categories/fragrances/",
+                  "slug": "fragrances",
+                  "id": 4,
+                  "name": "Fragrances"
+              },
+              "description_html": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
+              "updated_at": "2024-04-07T19:25:51.399328Z"
+          },
+          {
+              "url": "http://localhost/api/products/brown-perfume/",
+              "slug": "brown-perfume",
+              "id": 21,
+              "name": "Brown Perfume",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/ysdbvxgipmdt7si0slxf"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/v6wgvt9nylkb9ruxuopa"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/w7uk49hphiava6r7n5qz"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/j5h4g7k6xlps0bif7vwx"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/r1d9hxbvv5ffrgwgfnef"
+                  }
+              ],
+              "price": "40.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "15.66 %",
+                  "percent": "15.66",
+                  "active": true
+              },
+              "current_price": 33.736,
+              "category": {
+                  "url": "http://localhost/api/categories/fragrances/",
+                  "slug": "fragrances",
+                  "id": 4,
+                  "name": "Fragrances"
+              },
+              "description_html": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
+              "updated_at": "2024-04-07T19:25:48.833567Z"
+          },
+          {
+              "url": "http://localhost/api/products/perfume-oil/",
+              "slug": "perfume-oil",
+              "id": 20,
+              "name": "perfume Oil",
+              "files": [
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/fmnwzrie19hgcsbqdadz"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/islwr6ubbakfsqptew8l"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/vxluytg2snixn8qr44xd"
+                  },
+                  {
+                      "url": "https://res.cloudinary.com/dkljxonku/image/upload/zwkaiiqunmyiuuzjoffh"
+                  }
+              ],
+              "price": "13.0000",
+              "price_currency": "USD",
+              "discount": {
+                  "name": "8.4 %",
+                  "percent": "8.40",
+                  "active": true
+              },
+              "current_price": 11.908,
+              "category": {
+                  "url": "http://localhost/api/categories/fragrances/",
+                  "slug": "fragrances",
+                  "id": 4,
+                  "name": "Fragrances"
+              },
+              "description_html": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
+              "updated_at": "2024-04-07T19:25:46.839439Z"
+          }
+      ]
+  }
+]
