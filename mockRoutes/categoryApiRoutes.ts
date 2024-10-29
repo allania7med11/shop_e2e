@@ -1,9 +1,11 @@
 import categoryMobileResponse from '../mocks/categoryMobileResponse.json';
 import productsMobilesResponse from '../mocks/productsMobilesResponse.json';
+import discountCurrentPriceResponse from '../mocks/productsMobilesResponse.json';
 
-export const categoryApiRoutes = async (page, onMobileCategoryRequest) => {
+export const categoryApiRoutes = async (page, onApiRequest) => {
     await page.route('**/api/**', (route, request) => {
         const url = request.url();
+        onApiRequest(url)
         if (url.includes('/api/auth/csrf/')) {
             route.fulfill({
                 status: 200,
@@ -28,17 +30,28 @@ export const categoryApiRoutes = async (page, onMobileCategoryRequest) => {
                 }),
             });
         } else if (url.includes('/api/categories/mobiles/')) {
-            onMobileCategoryRequest()
             route.fulfill({
                 status: 200,
                 contentType: 'application/json',
                 body: JSON.stringify(categoryMobileResponse),
             });
-        } else if (url.match(/\/api\/products\/\?category=mobiles(&|$)/)) {
+        } else if (url.endsWith('/api/products/?category=mobiles')) {
             route.fulfill({
                 status: 200,
                 contentType: 'application/json',
                 body: JSON.stringify(productsMobilesResponse),
+            });
+        } else if (url.endsWith('/api/products/?category=mobiles&discount_min=10&discount_max=20&ordering=current_price')) {
+            route.fulfill({
+                status: 200,
+                contentType: 'application/json',
+                body: JSON.stringify(discountCurrentPriceResponse),
+            });
+        } else if (url.includes('/api/products/?category=mobiles')) {
+            route.fulfill({
+                status: 200,
+                contentType: 'application/json',
+                body: JSON.stringify([]),
             });
         } else {
             route.continue();
