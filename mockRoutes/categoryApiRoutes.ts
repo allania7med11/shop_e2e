@@ -1,6 +1,6 @@
 import categoryMobileResponse from '../mocks/categoryMobileResponse.json';
 import productsMobilesResponse from '../mocks/productsMobilesResponse.json';
-import discountCurrentPriceResponse from '../mocks/productsMobilesResponse.json';
+import discountCurrentPriceResponse from '../mocks/productFilters/discountCurrentPriceResponse.json';
 
 export const categoryApiRoutes = async (page, onApiRequest) => {
     await page.route('**/api/**', (route, request) => {

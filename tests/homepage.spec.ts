@@ -14,7 +14,5 @@ test('The homepage should return a 200 status and verify that the categories ren
 
   expect(response?.status()).toBe(200);
   expect(categoriesRequested).toBe(true);
-
-  // Compare the current screenshot with the baseline image
   expect(await page.screenshot({ fullPage: true })).toMatchSnapshot('homepage.png');
 });
