@@ -69,7 +69,7 @@ test.describe('Category Page Tests', () => {
     if (!urlApiCallsHistory.has(priceRangeDescendingApiUrl)) {
       console.error(`Expected URL ${priceRangeDescendingApiUrl} to be found in API call history, but it was not. API calls made: ${Array.from(urlApiCallsHistory).join(', ')}`);
     }
-    // expect(urlApiCallsHistory.has(priceRangeDescendingApiUrl)).toBe(true);
+    expect(urlApiCallsHistory.has(priceRangeDescendingApiUrl)).toBe(true);
   
     // Take a full-page screenshot for visual validation after applying filters
     expect(await page.screenshot({ fullPage: true })).toMatchSnapshot('priceRangeDescendingFilter.png');
