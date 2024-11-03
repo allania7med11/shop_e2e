@@ -38,11 +38,10 @@ test.describe('Category Page Tests', () => {
   });
 
   test('should filter products by discount and order by ascending price', async ({ page }) => {
+    await page.waitForTimeout(1000);
     // Apply filters and sorting
     await page.getByLabel('Order by').click();
     await page.getByRole('option', { name: 'Price: Low to High' }).click();
-    await page.waitForTimeout(1000); // Wait for sorting to apply
-
     await page.getByLabel('Discount by').click();
     await page.getByRole('option', { name: '% to 20%' }).click();
     await page.waitForTimeout(1000); // Wait for discount filter to apply
@@ -52,6 +51,7 @@ test.describe('Category Page Tests', () => {
     expect(urlApiCallsHistory.has(discountCurrentPriceApiUrl)).toBe(true);
 
     // Take another full-page screenshot for visual validation after applying filters
+    await page.evaluate(() => window.scrollTo(0, 0));
     expect(await page.screenshot({ fullPage: true })).toMatchSnapshot('discountCurrentPriceFilter.png');
   });
 
