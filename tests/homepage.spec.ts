@@ -1,12 +1,18 @@
 import { test, expect } from '@playwright/test';
+import { categoriesApiRoutes } from '../mockRoutes/categoriesApiRoutes.ts';
 
-test('homepage should return 200 status and have expected content', async ({ page }) => {
-  // Go to the homepage
-  const response = await page.goto('http://shop_front:3000'); 
+test('The homepage should return a 200 status and verify that the categories render correctly.', async ({ page }) => {
+  let categoriesRequested = false;
+  // Define a callback to set the categoriesRequested flag
+  const onCategoriesRequest = () => {
+    categoriesRequested = true;
+  };
+  await categoriesApiRoutes(page, onCategoriesRequest);
+  const response = await page.goto('');
+  await page.waitForLoadState('load');
+  await page.waitForTimeout(2000);
 
-  // Check if the status code is 200
   expect(response?.status()).toBe(200);
-
+  expect(categoriesRequested).toBe(true);
+  expect(await page.screenshot({ fullPage: true })).toMatchSnapshot('homepage.png');
 });
-
-
