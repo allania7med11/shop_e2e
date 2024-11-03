@@ -2,6 +2,8 @@ import categoryMobileResponse from '../mocks/categoryMobileResponse.json';
 import productsMobilesResponse from '../mocks/productsMobilesResponse.json';
 import discountCurrentPriceResponse from '../mocks/productFilters/discountCurrentPriceResponse.json';
 import priceDescendingResponse from '../mocks/productFilters/priceDescendingResponse.json';
+import searchNameResponse from '../mocks/productFilters/searchNameResponse.json';
+
 
 export const categoryApiRoutes = async (page, onApiRequest) => {
     await page.route('**/api/**', (route, request) => {
@@ -54,7 +56,13 @@ export const categoryApiRoutes = async (page, onApiRequest) => {
                 contentType: 'application/json',
                 body: JSON.stringify(priceDescendingResponse),
             });
-        }else if (url.includes('/api/products/?category=mobiles')) {
+        } else if (url.includes('/api/products/?category=mobiles&search=Samsung&ordering=name')) {
+            route.fulfill({
+                status: 200,
+                contentType: 'application/json',
+                body: JSON.stringify(searchNameResponse),
+            });
+        } else if (url.includes('/api/products/?category=mobiles')) {
             route.fulfill({
                 status: 200,
                 contentType: 'application/json',

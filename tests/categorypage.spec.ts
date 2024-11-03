@@ -70,11 +70,28 @@ test.describe('Category Page Tests', () => {
       console.error(`Expected URL ${priceRangeDescendingApiUrl} to be found in API call history, but it was not. API calls made: ${Array.from(urlApiCallsHistory).join(', ')}`);
     }
     expect(urlApiCallsHistory.has(priceRangeDescendingApiUrl)).toBe(true);
-  
+
     // Take a full-page screenshot for visual validation after applying filters
     expect(await page.screenshot({ fullPage: true })).toMatchSnapshot('priceRangeDescendingFilter.png');
   });
-  
+
+  test('should search by product name and order alphabetically', async ({ page }) => {
+    await page.waitForTimeout(1000);
+    // Perform the search for 'Samsung'
+    await page.getByRole('combobox', { name: 'Search' }).fill('Samsung');
+    await page.getByRole('combobox', { name: 'Search' }).press('Enter');
+    // Apply alphabetically order
+    await page.getByLabel('Order by').click();
+    await page.getByRole('option', { name: 'Name: A to Z' }).click();
+    await page.waitForTimeout(1000); // Wait for sorting to apply
+    // Check if the filtered API call is made
+    const searchNameApiUrl = '/api/products/?category=mobiles&search=Samsung&ordering=name';
+    expect(urlApiCallsHistory.has(searchNameApiUrl)).toBe(true);
+
+    // Take a full-page screenshot for visual validation after applying filters
+    expect(await page.screenshot({ fullPage: true })).toMatchSnapshot('searchNameFilter.png');
+  });
+
 });
 
 
