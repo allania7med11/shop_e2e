@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "ui": "playwright test --ui",
+    "codegen": "playwright codegen"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.2",

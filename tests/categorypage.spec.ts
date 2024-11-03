@@ -16,14 +16,11 @@ test('The categorypage should return a 200 status and verify that the products r
   const mobileCategoryApiUrl = '/api/products/?category=mobiles'
   expect(urlApiCallsHistory.has(mobileCategoryApiUrl)).toBe(true);
   expect(await page.screenshot({ fullPage: true })).toMatchSnapshot('categorypage.png');
-  await page.click('#order-select');
-  await page.waitForSelector('text="Price: Low to High"');
-  await page.click('text="Price: Low to High"');
+  await page.getByLabel('Order by').click()
+  await page.getByRole('option', { name: 'Price: Low to High' }).click();
   await page.waitForTimeout(1000);
-  await page.waitForSelector('#discount + div');
-  await page.click('#discount + div');
-  await page.waitForSelector('text="10% to 20%"', { state: 'visible' });
-  await page.click('text="10% to 20%"');
+  await page.getByLabel('Discount by').click();
+  await page.getByRole('option', { name: '% to 20%' }).click();
   await page.waitForTimeout(1000);
   const discountCurrentPriceApiUrl = '/api/products/?category=mobiles&discount_min=10&discount_max=20&ordering=current_price'
   expect(urlApiCallsHistory.has(discountCurrentPriceApiUrl)).toBe(true);
