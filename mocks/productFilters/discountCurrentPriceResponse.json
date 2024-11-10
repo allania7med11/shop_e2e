@@ -1,0 +1,122 @@
+[
+    {
+        "url": "http://localhost/api/products/samsung-galaxy-s20-fe-5g/",
+        "slug": "samsung-galaxy-s20-fe-5g",
+        "id": 5,
+        "name": "Samsung Galaxy S20 FE 5G",
+        "files": [
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/dytxrmxlgvefmadw44lb"
+            }
+        ],
+        "price": "550.0000",
+        "price_currency": "USD",
+        "discount": {
+            "name": "15%",
+            "percent": "15.00",
+            "active": true
+        },
+        "current_price": 467.5,
+        "category": {
+            "url": "http://localhost/api/categories/mobiles/",
+            "slug": "mobiles",
+            "id": 1,
+            "name": "mobiles"
+        },
+        "description_html": "",
+        "updated_at": "2024-10-29T07:16:32.729388Z"
+    },
+    {
+        "url": "http://localhost/api/products/oneplus-10-pro-5g-android-smartphone/",
+        "slug": "oneplus-10-pro-5g-android-smartphone",
+        "id": 3,
+        "name": "OnePlus 10 Pro | 5G Android Smartphone",
+        "files": [
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/yngmbtkihr7n99d2mfwm"
+            }
+        ],
+        "price": "697.1700",
+        "price_currency": "USD",
+        "discount": {
+            "name": "15%",
+            "percent": "15.00",
+            "active": true
+        },
+        "current_price": 592.5945,
+        "category": {
+            "url": "http://localhost/api/categories/mobiles/",
+            "slug": "mobiles",
+            "id": 1,
+            "name": "mobiles"
+        },
+        "description_html": "",
+        "updated_at": "2024-10-29T07:21:26.920414Z"
+    },
+    {
+        "url": "http://localhost/api/products/samsung-galaxy-s22-cell-phone/",
+        "slug": "samsung-galaxy-s22-cell-phone",
+        "id": 9,
+        "name": "SAMSUNG Galaxy S22+ Cell Phone",
+        "files": [
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/visxlcqd5oupmogu54gx"
+            },
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/bb3ikyr1nap2gxxvacqq"
+            },
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/pndn7mjat1ba4faacexm"
+            },
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/hqwb3ee0fky70jeg49ex"
+            },
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/qyo6dywltkhfxiejiijw"
+            }
+        ],
+        "price": "910.0000",
+        "price_currency": "USD",
+        "discount": {
+            "name": "12%",
+            "percent": "12.00",
+            "active": true
+        },
+        "current_price": 800.8,
+        "category": {
+            "url": "http://localhost/api/categories/mobiles/",
+            "slug": "mobiles",
+            "id": 1,
+            "name": "mobiles"
+        },
+        "description_html": "<ul><li>6.6\", 1080 x 2340pixels, Infinity-O FHD+ Dynamic AMOLED 2X Display, 4500mAh Battery, Wireless Powershare</li><li>128GB ROM, 8GB RAM, No SD Card Slot, Qualcomm SM8450 Snapdragon 8 Gen 1 (4 nm), Octa-Core, Adreno 730</li><li>Rear Camera: 50MP, f/1.8 + 10MP, f/2.4 + 12MP, f/2.2, Front Camera: 10 MP, f/2.2, Android 12, One UI 4.1</li><li>2G: GSM 850/900/1800/1900, CDMA 800/1900, 3G: HSDPA 850/900/1700(AWS)/1900/2100, CDMA2000 1xEV-DO, 4G LTE: 1/2/3/4/5/7/8/12/13/14/18/19/20/25/26/28/29/30/38/39/40/41/46/48/66/71, 5G: 1/3/5/7/8/20/28/38/41/66/71/260/261SA/NSA/Sub6/mmWave - Single SIM</li><li>No Warranty. Compatible with Most GSM and CDMA Carriers like T-Mobile, AT&amp;T, MetroPCS, etc. Will Also work with CDMA Carriers Such as Verizon, Sprint.</li></ul><p><br></p>",
+        "updated_at": "2024-10-27T20:29:45.553445Z"
+    },
+    {
+        "url": "http://localhost/api/products/samsung-galaxy-z-fold-3-5g-cell-phone/",
+        "slug": "samsung-galaxy-z-fold-3-5g-cell-phone",
+        "id": 6,
+        "name": "SAMSUNG Galaxy Z Fold 3 5G Cell Phone",
+        "files": [
+            {
+                "url": "https://res.cloudinary.com/dkljxonku/image/upload/boxuazmwrnpy1cn0dcvz"
+            }
+        ],
+        "price": "1144.0000",
+        "price_currency": "USD",
+        "discount": {
+            "name": "20%",
+            "percent": "20.00",
+            "active": true
+        },
+        "current_price": 915.2,
+        "category": {
+            "url": "http://localhost/api/categories/mobiles/",
+            "slug": "mobiles",
+            "id": 1,
+            "name": "mobiles"
+        },
+        "description_html": "",
+        "updated_at": "2024-10-27T20:38:25.137434Z"
+    }
+]

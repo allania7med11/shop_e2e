@@ -1,7 +1,8 @@
 import { defineConfig } from '@playwright/test';
 
 export default defineConfig({
+  testDir: './tests',
   use: {
-    // Browser and test settings go here
+    baseURL: process.env.BASE_URL || 'http://localhost:3000',
   },
 });
