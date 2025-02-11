@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  shop_e2e:
+    build:
+      context: .  # Build from the current directory
+      dockerfile: Dockerfile
+    container_name: shop_e2e
+    user: pwuser  # Ensures Playwright runs as the correct user
+    env_file:
+      - .env  # Load environment variables from the .env file
+    volumes:
+      - .:/app  # Mounts the project directory into the container
+      - /tmp/.X11-unix:/tmp/.X11-unix  # Required for GUI testing
+    working_dir: /app  # Ensures the right working directory
+    entrypoint: ["sh", "./run.sh"]  # Runs Playwright tests on start
+    shm_size: '2gb'  # Prevents Chromium crashes in Docker
+    network_mode: "host"  # Uses the host network for direct communication
