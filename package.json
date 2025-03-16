@@ -2,7 +2,8 @@
   "scripts": {
     "test": "playwright test",
     "ui": "playwright test --ui",
-    "codegen": "playwright codegen"
+    "codegen": "playwright codegen",
+    "update-snapshots": "playwright test --update-snapshots"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.2",
